@@ -1,0 +1,56 @@
+
+body{
+    background-color: gray;
+    /* display: flex;
+    flex:1;
+    align-items: center; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1, p, .Output{
+    text-align: center;
+}
+.ChoicesDiv{
+
+    display:flex;
+    flex-direction: row;
+
+    justify-content:space-around;
+    align-items:flex-start;
+}
+
+.Choice{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 32%;
+    max-height: 100px;
+    text-align: top;
+    
+
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+.Output{
+    
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-self: center;
+}

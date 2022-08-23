@@ -1,12 +1,4 @@
-
-body{
-    background-color: gray;
-    /* display: flex;
-    flex:1;
-    align-items: center; */
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-}
+/*
 h1, p, .Output{
     text-align: center;
 }
@@ -18,6 +10,7 @@ h1, p, .Output{
     justify-content:space-around;
     align-items:flex-start;
 }
+
 
 .Choice{
 
@@ -37,7 +30,7 @@ img{
 
 }
 button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -53,4 +46,29 @@ button{
     height: 50%;
     justify-content: center;
     align-self: center;
+}  
+*/
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    
 }
+#gameDiv{
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:blanchedalmond;
+
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+

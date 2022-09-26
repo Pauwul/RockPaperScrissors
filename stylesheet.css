@@ -1,0 +1,74 @@
+/*
+h1, p, .Output{
+    text-align: center;
+}
+.ChoicesDiv{
+
+    display:flex;
+    flex-direction: row;
+
+    justify-content:space-around;
+    align-items:flex-start;
+}
+
+
+.Choice{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 32%;
+    max-height: 100px;
+    text-align: top;
+    
+
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+
+}
+button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+.Output{
+    
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-self: center;
+}  
+*/
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    
+}
+#gameDiv{
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:blanchedalmond;
+
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+
